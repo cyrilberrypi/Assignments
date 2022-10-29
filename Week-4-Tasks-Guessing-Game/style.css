@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.top-content {
+    background-color: whitesmoke;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.top-content .p-top {
+    color: rgb(93, 59, 175);
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 3rem;
+    margin-top: 30px;
+}
+.bottom-content {
+    display: flex;
+    width: 100%;
+}
+.bottom-content .section-1 {
+    background-color: lightseagreen;
+    padding: 2rem;
+    width: 50%;
+}
+.bottom-content .section-2 {
+    background-color: lightskyblue;
+    padding: 2rem;
+    width: 50%;
+}
+#btn-1 {
+    background-color: blue;
+    width: 100px;
+    margin-top: 10px;
+    padding: 1.0rem;
+    font-size: 1.0rem;
+    font-weight: bold;
+    color: beige;
+}
+#btn-1:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.stage-content {
+    background-color: whitesmoke;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+}
+.guess {
+    width: 100px;
+    height: 50px;
+    padding: 1rem;
+    font-size: medium;
+    text-align: center;
+}
+.section-2 #score, #highscore {
+    padding: 1.0rem;
+    margin-top: 1.0px;
+}
+p {
+    font-weight: bold;
+}
+
+.btn-again {
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+    padding: 1.0rem;
+}
